@@ -1,0 +1,16 @@
+#post{
+    background-color: rgb(205, 206, 205);
+    width: 1000px;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px solid #14861e;
+}
+
+#lyrics
+{
+    background-color: rgb(226, 223, 223);
+}
+
+body{
+    background-color: rgb(243, 10, 10);
+}
