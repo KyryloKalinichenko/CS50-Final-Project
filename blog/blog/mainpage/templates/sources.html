@@ -4,7 +4,13 @@
 
 
 <h1> Sources </h1>
-
-<a href="{% url 'home' %}">HOME</a>
-
+<center>
+    {% for programme in object_list %}
+        <div id="post">
+            <li>{{ programme.title }} / {{ programme.author }}></li>
+            <p>{{ programme.body }}</p>
+        </div>
+        <br>
+    {% endfor %}
+</center>
 {% endblock  %}

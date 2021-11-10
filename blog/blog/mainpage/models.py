@@ -9,4 +9,12 @@ class Post(models.Model):
     def __str__(self):
         return self.title + ' | ' + str(self.author)
 
+class Programme(models.Model):
+    title = models.CharField(max_length=255)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    body = models.TextField()
+
+    def __str__(self):
+        return self.title + ' | ' + str(self.author)
+
 # Create your models here.
