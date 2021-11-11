@@ -1,5 +1,5 @@
 .love{
-    width: 50%;
+    width: 100%;
 }
 
 #post{
@@ -11,7 +11,22 @@
     /* border :darkorange(226, 223, 223); */
 }
 
+#home_box{
+    width: 1000px;
+    height: 300px;
+    /* border-left: 20px solid; */
+    border-color: rgb(88, 143, 91);
+    border :darkorange(226, 223, 223);
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	position:relative;
+	bottom:50px;
+	left:50px;
+}
+
 
 body{
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(225, 241, 225);
 }
