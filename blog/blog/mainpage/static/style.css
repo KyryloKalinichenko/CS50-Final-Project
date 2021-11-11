@@ -1,3 +1,7 @@
+.love{
+    width: 50%;
+}
+
 #post{
     background-color: rgb(226, 228, 226);
     width: 1000px;
@@ -6,6 +10,7 @@
     border-color: rgb(88, 143, 91);
     /* border :darkorange(226, 223, 223); */
 }
+
 
 body{
     background-color: rgb(253, 251, 251);
