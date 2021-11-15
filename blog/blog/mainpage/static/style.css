@@ -13,9 +13,9 @@
 }
 
 #home_box{
-    width: 50%;
+    width: 60%;
     /* border-left: 20px solid; */
-    border-color: rgb(88, 143, 91);
+    /* border-color: rgb(88, 143, 91); */
     border :darkorange(226, 223, 223);
 	background-color: rgb(255, 255, 255);
 	border-radius: 25px;
@@ -29,19 +29,34 @@
 }
 
 .home_box2{
-    width: 50%;
+    width: 70%;
     /* border-left: 20px solid; */
-    border-color: rgb(88, 143, 91);
+    /* border-color: rgb(88, 143, 91); */
     border :darkorange(226, 223, 223);
 	background-color: rgb(255, 255, 255);
 	border-radius: 25px;
 	text-align: center;
 	font-family: 'Courier New', monospace;
 	position:relative;
-	bottom:50px;
-	left:200px;
+	bottom:60px;
+	left:300px;
 	max-width: 700px;
-	min-width: 500px;
+	min-width: 700px;
+}
+
+.home_box3{
+    width: 70%;
+    /* border-down: 20px solid; */
+    border-color: rgb(88, 143, 91);
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	position:relative;
+	bottom:60px;
+	left:200px;
+	max-width: 900px;
+	min-width: 600px;
 }
 
 
