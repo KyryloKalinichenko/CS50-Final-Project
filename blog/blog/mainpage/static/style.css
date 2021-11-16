@@ -9,38 +9,42 @@
 	width: 80%;
     border-left: 20px solid;
     border-color: rgb(88, 143, 91);
+	text-align: center;
+	border-radius: 20px;
+	font-family: 'Courier New', monospace;
+
     /* border :darkorange(226, 223, 223); */
 }
 
 #home_box{
-    width: 60%;
+    width: 80%;
     /* border-left: 20px solid; */
     /* border-color: rgb(88, 143, 91); */
     border :darkorange(226, 223, 223);
 	background-color: rgb(255, 255, 255);
-	border-radius: 25px;
+	border-radius: 40px;
 	text-align: center;
 	font-family: 'Courier New', monospace;
 	position:relative;
 	bottom:50px;
 	left:50px;
-	max-width: 700px;
+	/* max-width: 700px; */
 	min-width: 500px;
 }
 
 .home_box2{
-    width: 70%;
+    width: 80%;
     /* border-left: 20px solid; */
     /* border-color: rgb(88, 143, 91); */
     border :darkorange(226, 223, 223);
 	background-color: rgb(255, 255, 255);
-	border-radius: 25px;
+	border-radius: 40px;
 	text-align: center;
 	font-family: 'Courier New', monospace;
 	position:relative;
 	bottom:60px;
 	left:300px;
-	max-width: 700px;
+	/* max-width: 700px; */
 	min-width: 700px;
 }
 
@@ -49,7 +53,7 @@
     /* border-down: 20px solid; */
     border-color: rgb(88, 143, 91);
 	background-color: rgb(255, 255, 255);
-	border-radius: 25px;
+	border-radius: 40px;
 	text-align: center;
 	font-family: 'Courier New', monospace;
 	position:relative;
