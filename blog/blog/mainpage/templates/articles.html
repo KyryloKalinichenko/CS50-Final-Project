@@ -4,8 +4,10 @@
 <center>
     {% for post in object_list %}
         <div id="post">
-            <li><a href="{% url 'detail' post.pk %}">{{ post.title }} / {{ post.author }}</a></li>
+            <h2><a href="{% url 'detail' post.pk %}">{{ post.title }}</a></h2>
             <p>{{ post.body }}</p>
+			<img src=post.photo.path alt=post.title>
+			
         </div>
         <br>
     {% endfor %}

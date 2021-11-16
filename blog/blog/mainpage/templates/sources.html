@@ -5,8 +5,9 @@
 <center>
     {% for programme in object_list %}
         <div id="post">
-            <li>{{ programme.title }} / {{ programme.author }}></li>
+            <h2>{{ programme.title }}></h2>
             <p>{{ programme.body }}</p>
+			<img src={{programme.photo.url}} alt={{programme.title}}>
         </div>
         <br>
     {% endfor %}
