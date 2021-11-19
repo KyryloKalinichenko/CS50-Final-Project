@@ -12,8 +12,12 @@
 	text-align: center;
 	border-radius: 20px;
 	font-family: 'Courier New', monospace;
-
+	image-resolution: 400px;
     /* border :darkorange(226, 223, 223); */
+}
+
+.post_pic{
+	max-width: 50%;
 }
 
 #home_box{
