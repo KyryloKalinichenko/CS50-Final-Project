@@ -5,11 +5,10 @@
     {% for post in object_list %}
         <div id="post">
             <h2><a href="{% url 'detail' post.pk %}">{{ post.title }}</a></h2>
-            <p>{{ post.body }}</p>
-			<img class="post_pic" src={{post.photo.url}} alt={{post.title}}>
+            
+            <img class="post_pic" src={{post.photo.url}} alt={{post.title}}><a>{{ post.short }}</a>
 			
         </div>
-        <br>
     {% endfor %}
 </center>
 

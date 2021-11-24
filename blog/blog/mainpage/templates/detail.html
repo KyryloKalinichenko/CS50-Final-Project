@@ -3,11 +3,10 @@
 {% block content %}
 <center>
 
-
     <h1>{{ post.title }}</h1>
-    <h2>{{ post.author }}</h2>
 
-    <p>{{ post.body }}</p>
+    <img class="post_pic" src={{post.photo.url}} alt={{post.title}}><a>{{ post.body }}</a>
+
 </center>
 
 {% endblock  %}
