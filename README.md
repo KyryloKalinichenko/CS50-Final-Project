@@ -6,6 +6,7 @@ This is a little blog I created for myself with an absolutely new (for me) frame
 ORM provided by this framework and the maximum Django functionality.
 
 
+Down here you can see the home page with basic navigation through the app.
 ![home](https://user-images.githubusercontent.com/64800542/152142017-34190c2b-b9a8-40e2-b055-4e7daabd2635.png)
 
 
