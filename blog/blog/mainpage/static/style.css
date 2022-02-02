@@ -5,21 +5,29 @@
 	font-family: 'Mogra', cursive;
 	color: darkgreen;
 	font-size: 200%;
+	background-color: rgb(225, 241, 225);
+	border-radius: 25px;
+
 }
 
 .love{
 	border-radius: 25px;
     width: 80%;
 	min-width: 400px;
-	float: center;
+	/* float: center; */
+
 	margin: auto;
 	max-width: 80%;
-	margin: 1%;
 
 }
 
-a{
+p a{
 	padding: 2%;
+	color: rgb(114, 110, 110);
+	text-decoration: none;
+	font-family: 'Mogra', cursive;
+	font-weight: normal;
+
 }
 
 #post{
@@ -32,20 +40,12 @@ a{
 	font-family: 'Courier New', monospace;
 	image-resolution: 400px;
 	float: right;
-	/* display: inline-block; */
-    /* border :darkorange(226, 223, 223); */
 	padding: 1%;
 	margin: 1%;
 	max-width: 80%;
 }
 
-/* #post img{
-	clear: left;
-	max-width: 50%;
-} */
-
 .post_pic{
-	/* clear: left; */
 	float: left;
 	max-width: 50%;
 }
@@ -82,46 +82,103 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover:not(.active) {
 	background-color: rgb(88, 143, 91);
+	border-radius: 20px;
+
   }
   
 .active {
+
 	background-color: rgb(88, 143, 91);
 }
 
-.home_box2{
-    width: 80%;
+.home_box{
+    width: 100%;
 	background-color: rgb(225, 241, 225);
+	display: flex;
+}
+
+.home_box2{
+	width: 70%;
 	border-radius: 40px;
-	text-align: left;
-	position: relative;
-	left: 30%;
-	flex: center;
-	min-width: 500px;
-	padding:1%;
+	/* text-align: right; */
+	/* padding: 1%; */
+	/* min-width: 500px; */
+	display: flex;
+	flex-direction: row;
+}
+
+.main{
+	width: 60%;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* margin: auto; */
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	min-width: 400px;
+
+	
 }
 
 p{
 	font-family: 'Dekko', cursive;
 	font-size: 30px;
+	
+}
 
+button{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 15px;
+}
+
+.time_box{
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 2%;
+	border-radius: 25px;
+	
 }
 
 .time{
 	width: 50%;
+	display: flex;
+	/* flex-direction: column; */
+	margin: auto;
+	border-radius: 25px;
+	text-align: center;
+
+	
 }
 
+
+.time_box button{
+	background-color: yellowgreen; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 15px;
+}
+
+
 .home_box3{
-    width: 70%;
-    /* border-down: 20px solid; */
+    width: 100%;
     border-color: rgb(88, 143, 91);
-	background-color: rgb(225, 241, 225);
+	background-color: white;
 	border-radius: 40px;
-	text-align: left;
+	text-align: center;
 	font-family: 'Averia Gruesa Libre', cursive;
-	/* font-family: 'Courier New', monospace; */
-	/* position:relative;
-	bottom:60px;
-	left:200px; */
+	margin: auto;
 	max-width: 900px;
 	min-width: 300px;
 }
@@ -135,10 +192,12 @@ p{
 }
 
 .container{
-	width: 80%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	/* min-width: 800px; */
+
 }
 
 .box{
@@ -146,6 +205,8 @@ p{
 }
 
 body{
+	display: flex;
+	flex-direction: column;
     background-color: rgb(225, 241, 225);
 }
 
@@ -158,3 +219,22 @@ h2{
 	padding: 10px;
 }
 
+.contacts{
+	display: flex;
+	flex-direction: row;
+	padding: 2%;
+	border-radius: 25px;
+	
+}
+
+.point_box{
+	display: flex;
+	flex-direction: column;
+}
+
+.point{
+	width: 70%;
+	/* flex-direction: column; */
+	margin: auto;
+
+}

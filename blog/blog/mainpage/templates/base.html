@@ -24,9 +24,9 @@
   <div class="main-container">
   
         <ul>
-            <li><a href="about">About</a></li>
-            <li><a href="sources">Programmes/Objects</a></li>
-            <li><a href="articles">Articles</a></li>
+            <li><a href={% url 'about' %}>About</a></li>
+            <li><a href={% url 'sources' %}>Programmes/Objects</a></li>
+            <li><a href={% url 'articles' %}>Articles</a></li>
             <li><a href={% url 'home' %}>Home</a></li>
             {% comment %} <li><a>Self-tought programming</a></li> {% endcomment %}
             <a id="main_name" href={% url 'home' %}>Self-tought programming</a>

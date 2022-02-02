@@ -15,6 +15,7 @@ class Programme(models.Model):
     title = models.CharField(max_length=255)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     body = models.TextField()
+    link = models.TextField(max_length=300, default=0)
     photo = models.ImageField(upload_to='media/posts', default=0)
 
     def __str__(self):

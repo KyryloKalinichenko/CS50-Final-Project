@@ -1,33 +1,60 @@
 {% extends 'base.html' %}
 
 {% block content %}
-	<div>
+	<div class="home_box">
 		<img class="love" src="static/love.jpg">
 	</div>
 	<br>
 	<br>
+
+
+
 	<div class="home_box2">
+		<img class="main" src="static/main.png" alt="main">
 		<p>Hey there! My name is Kyrylo Kalinichenko and I'm a self-tought programmer and this is
-		my blog. Where you can find freeavailable <a href="sources"> resources</a> and <a href="articles">articles</a> to become a programmer.
-		<br>
+		my blog. Here you can find freeavailable resources from top universities and interesting articles from me to become a programmer.
+			<br>
+		</p>
+
+	</div>
+
+
+
+	<div class="time_box">
+		<img class="time" src="static/time.jpg" alt="time">
+		<p>So it is time to check them out right here!
+			<br>
+			<button><a href="sources"> resources</a></button> <button><a href="articles">articles</a></button>
 		</p>
 	</div>
-	<img class="time" src="static/time.jpg" alt="time"><p>So it is time to check them out</p>
-	<div class="home_box3">
-		<br>
-		<img src="static/mario.png" style="width: 20%;"><br>
-		<a href="https://www.linkedin.com/in/kyrylo-kalinichenko-0a83b2178/">
-			<img src="static/in.png"  style="width: 5%;">
-		</a>
-		<a href="https://github.com/KyryloKalinichenko">
-			<img src="static/Octocat.png"  style="width: 5%;">
-		</a>
 
-		<a href="mailto:kirillstomper@gmail.com">
-			<img src="static/gmail.svg"  style="width: 5%;">
-		</a>
-		<br>
-		<br>
+
+	<div class="point_box">
+
+		<div class="home_box3">
+			<br>
+			{% comment %} <img src="static/mario.png" style="width: 20%;"><br> {% endcomment %}
+			<a href="https://www.linkedin.com/in/kyrylo-kalinichenko-0a83b2178/">
+				<img src="static/in.png"  style="width: 5%;">
+			</a>
+			<a href="https://github.com/KyryloKalinichenko">
+				<img src="static/Octocat.png"  style="width: 5%;">
+			</a>
+
+			<a href="mailto:kirillstomper@gmail.com">
+				<img src="static/gmail.svg"  style="width: 5%;">
+			</a>
+			<br>
+			<br>
+		</div>
+		<div class="contacts">
+
+			<img class="point" src="static/point.png" alt="point">
+			<p>
+				There are my contacts, by the way! Don't hesitate to text me!
+			</p>
+		</div>
+	
 	</div>
 
 

@@ -7,7 +7,13 @@
         <div id="post">
             <h2>{{ programme.title }}</h2>
             
-			<img class="post_pic" src={{programme.photo.url}} alt={{programme.title}}><a>{{ programme.body }}</a>
+			<img  class="post_pic" src={{programme.photo.url}} alt={{programme.title}}><a>{{ programme.body }}</a>
+            <br>
+            <button>
+                <a href={{programme.link}}>
+                    Link
+                </a>
+            </button>
         </div>
         <br>
     {% endfor %}
