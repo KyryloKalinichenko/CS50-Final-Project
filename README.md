@@ -1,9 +1,9 @@
 # CS50-Final-Project
 
-My the very first Django project.
+**My the very first Django project.**
 
-**This is a little blog I created for myself with an absolutely new (for me) framework. It has been done using Django and sqlite. I used generic views, templates,**
-**ORM provided by this framework and the maximum Django functionality.**
+This is a little blog I created for myself with an absolutely new (for me) framework. It has been done using Django and sqlite. I used generic views, templates,
+ORM provided by this framework and the maximum Django functionality.
 
 
 ![home](https://user-images.githubusercontent.com/64800542/152142017-34190c2b-b9a8-40e2-b055-4e7daabd2635.png)
